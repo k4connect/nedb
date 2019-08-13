@@ -1,12 +1,13 @@
 {
   "name": "nedb",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "author": {
     "name": "Louis Chatriot",
     "email": "louis.chatriot@gmail.com"
   },
   "contributors": [
-    "Louis Chatriot"
+    "Louis Chatriot",
+    "Anurag Dulapalli"
   ],
   "description": "File-based embedded data store for node.js",
   "keywords": [
@@ -14,17 +15,17 @@
     "datastore",
     "embedded"
   ],
-  "homepage": "https://github.com/louischatriot/nedb",
+  "homepage": "https://github.com/k4connect/nedb",
   "repository": {
     "type": "git",
-    "url": "git@github.com:louischatriot/nedb.git"
+    "url": "git@github.com:k4connect/nedb.git"
   },
   "dependencies": {
     "async": "0.2.10",
     "binary-search-tree": "0.2.5",
     "localforage": "^1.3.0",
-    "mkdirp": "~0.5.1",
-    "underscore": "~1.4.4"
+    "lodash": "~4.17.15",
+    "mkdirp": "~0.5.1"
   },
   "devDependencies": {
     "chai": "^3.2.0",
